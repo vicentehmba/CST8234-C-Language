@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printFormattedTime, symObjAddr: 0x0, symBinAddr: 0x100003618, symSize: 0xBC }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _printFormattedTime, symObjAddr: 0x0, symBinAddr: 0x100003618, symSize: 0xBC }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _processTempMessages, symObjAddr: 0xBC, symBinAddr: 0x1000036D4, symSize: 0x148 }
+  - { offsetInCU: 0xCF, offset: 0xCF, size: 0x8, addend: 0x0, symName: _processWindSpeedMessages, symObjAddr: 0x204, symBinAddr: 0x10000381C, symSize: 0x148 }
+  - { offsetInCU: 0x10F, offset: 0x10F, size: 0x8, addend: 0x0, symName: _processWindGustsMessages, symObjAddr: 0x34C, symBinAddr: 0x100003964, symSize: 0x1AC }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4F8, symBinAddr: 0x100003B10, symSize: 0x34 }
+  - { offsetInCU: 0x26, offset: 0x33E, size: 0x8, addend: 0x0, symName: _readTempMessage, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x104 }
+  - { offsetInCU: 0x41, offset: 0x359, size: 0x8, addend: 0x0, symName: _readTempMessage, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x104 }
+  - { offsetInCU: 0x26, offset: 0x433, size: 0x8, addend: 0x0, symName: _readWindSpeedMessage, symObjAddr: 0x0, symBinAddr: 0x100003C48, symSize: 0x110 }
+  - { offsetInCU: 0x41, offset: 0x44E, size: 0x8, addend: 0x0, symName: _readWindSpeedMessage, symObjAddr: 0x0, symBinAddr: 0x100003C48, symSize: 0x110 }
+  - { offsetInCU: 0x26, offset: 0x534, size: 0x8, addend: 0x0, symName: _readWindGustsMessage, symObjAddr: 0x0, symBinAddr: 0x100003D58, symSize: 0x110 }
+  - { offsetInCU: 0x41, offset: 0x54F, size: 0x8, addend: 0x0, symName: _readWindGustsMessage, symObjAddr: 0x0, symBinAddr: 0x100003D58, symSize: 0x110 }
+...
